@@ -1,0 +1,23 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.hidden-word {
+    color: #f0f0f0; /* Adjust this color to match the background for hiding */
+    position: absolute;
+    font-size: 0.8em; /* Adjust as needed */
+}
